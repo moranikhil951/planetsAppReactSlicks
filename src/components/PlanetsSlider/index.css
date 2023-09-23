@@ -1,0 +1,26 @@
+/* Write your CSS here */
+
+.planet-slider-container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png');
+  min-height: 100vh;
+}
+
+.top-heading {
+  color: #05acff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .top-heading {
+    color: #05acff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .planet-slider-container {
+    padding: 20px;
+  }
+}
